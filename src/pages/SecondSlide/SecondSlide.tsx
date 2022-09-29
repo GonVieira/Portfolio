@@ -4,7 +4,7 @@ import { SecondSlideContainer } from './style';
 const SecondSlide = () => {
 
     return (
-        <SecondSlideContainer>
+        <SecondSlideContainer id="section2">
             <h1>Second Slide</h1>
         </SecondSlideContainer>
     )

@@ -4,7 +4,7 @@ import { FirstSlideContainer } from "./style";
 const FirstSlide = () => {
 
     return (
-        <FirstSlideContainer>
+        <FirstSlideContainer id="section1">
             <h1>First Slide</h1>
         </FirstSlideContainer>
     )
