@@ -11,6 +11,11 @@ const GlobalStyle = createGlobalStyle`
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; 
   }
+
+  #root{
+    height: 100vh;
+    margin: 0 auto;
+  }
   
   ::-webkit-scrollbar {
     width: 0px;

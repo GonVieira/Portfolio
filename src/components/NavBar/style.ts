@@ -24,14 +24,13 @@ export const NavBarUl = styled.ul`
 `;
 
 export const NavOptionLi = styled.li`
-    list-style-type: none;
-    padding: 4px;
-    cursor: pointer;
-`
+  list-style-type: none;
+  padding: 4px;
+  cursor: pointer;
+`;
 
 export const NavOption = styled.a`
-    font-size: 1rem;
-    color: white;
-    text-decoration: none;
-    
-`
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+`;

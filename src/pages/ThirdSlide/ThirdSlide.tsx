@@ -1,15 +1,14 @@
-import React from 'react';
-import { ThirdSlideContainer } from './style';
+import React from "react";
+import { ThirdSlideContainer, ThirdSlideContentWrapper } from "./style";
 
 const ThirdSlide = () => {
-
-    return (
-        <ThirdSlideContainer id="section3">
-            <h1>Third Slide</h1>
-        </ThirdSlideContainer>
-    )
-
-}
+  return (
+    <ThirdSlideContainer id="section3">
+      <ThirdSlideContentWrapper>
+        <h1>My Projects</h1>
+      </ThirdSlideContentWrapper>
+    </ThirdSlideContainer>
+  );
+};
 
 export default ThirdSlide;
-
