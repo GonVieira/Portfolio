@@ -16,7 +16,7 @@ export const FirstSlideContentWrapper = styled.div`
   align-items: center;
   flex-direction: row;
   height: 100%;
-  width: 75%;
+  width: 70%;
 `;
 
 export const TextContainer = styled.div`

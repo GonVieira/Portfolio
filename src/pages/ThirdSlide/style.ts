@@ -6,7 +6,7 @@ export const ThirdSlideContainer = styled.div`
     align-items: center;
     width: 100%;
     height: 100%;
-    background-color: orange;
+    background-color: rgb(23, 30, 34);
 `
 
 export const ThirdSlideContentWrapper = styled.div`
@@ -20,10 +20,15 @@ export const ThirdSlideContentWrapper = styled.div`
 
 export const ProjectSlideTitleContainer = styled.div`
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
     width: 100%;
     height: 10%;
+
+    h1 {
+        color: white;
+        font-weight: bold;
+    }
 `
 
 export const ProjectsContainer = styled.div`
