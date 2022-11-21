@@ -12,16 +12,13 @@ interface ProjectInfoProp {
 }
 
 const Project = ({ name, url, img }: ProjectInfoProp) => {
-    
   return (
-    <a href={url} target="blank">
-      <ProjectComponentWrapper>
-        <ProjectImg src={img} />
-        <ProjectNameContainer>
-          <h2>{name}</h2>
-        </ProjectNameContainer>
-      </ProjectComponentWrapper>
-    </a>
+    <ProjectComponentWrapper href={url} target="blank">
+      <ProjectImg src={img} />
+      <ProjectNameContainer>
+        <h2>{name}</h2>
+      </ProjectNameContainer>
+    </ProjectComponentWrapper>
   );
 };
 

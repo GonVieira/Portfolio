@@ -1,17 +1,20 @@
 import styled from "styled-components";
 
-export const ProjectComponentWrapper = styled.div`
+export const ProjectComponentWrapper = styled.a`
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 25%;
-  height: 25%;
+  width: 80%;
+  height: 80%;
+  overflow: hidden;
+  border: 0.5px solid #89CFF0;
 `;
 
 export const ProjectImg = styled.img`
   opacity: 1;
   display: block;
+  object-fit: cover;
   width: 100%;
   height: auto;
   transition: 0.5s ease;
