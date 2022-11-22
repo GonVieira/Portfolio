@@ -15,7 +15,7 @@ export const SecondSlideContentWrapper = styled.div`
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  width: 70%;
+  width: 60%;
   height: 100%;
 `;
 
@@ -47,6 +47,13 @@ export const SkillSetTitleContainer = styled.div`
     font-size: 1.4rem;
     margin: 0;
     padding-left: 4px;
-    color: white;
+    color: #689af8;
   }
+`
+
+export const ButtonContainer = styled.div`
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 1rem;
 `

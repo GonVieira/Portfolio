@@ -8,7 +8,12 @@ export const ProjectComponentWrapper = styled.a`
   width: 80%;
   height: 80%;
   overflow: hidden;
-  border: 0.5px solid #89CFF0;
+  border: 0.5px solid #689af8;
+
+  :hover {
+    border: 0.5px solid transparent;
+    transition: 0.5 ease;
+  }
 `;
 
 export const ProjectImg = styled.img`

@@ -6,8 +6,9 @@ export const FirstSlideContainer = styled.div`
   align-items: center;
   flex-direction: row;
   width: 100%;
-  height: 100%;
-  background-color: rgb(23, 30, 34);
+  height: 70%;
+  background-color: #171e22;
+  padding-top: 5%
 `;
 
 export const FirstSlideContentWrapper = styled.div`
@@ -16,7 +17,7 @@ export const FirstSlideContentWrapper = styled.div`
   align-items: center;
   flex-direction: row;
   height: 100%;
-  width: 70%;
+  width: 80%;
 `;
 
 export const TextContainer = styled.div`
@@ -48,7 +49,7 @@ export const IntroText = styled.h2`
 export const MyNameText = styled.h1`
   font-size: 3rem;
   font-weight: bold;
-  color: white;
+  color: #689af8;
   margin: 0;
 `;
 

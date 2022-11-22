@@ -1,5 +1,7 @@
 import React from "react";
+import PrimaryButton from "../../components/PrimaryButton/PrimaryButton";
 import {
+  ButtonContainer,
   HalfWidthTextContainer,
   SecondSlideContainer,
   SecondSlideContentWrapper,
@@ -17,6 +19,17 @@ const SecondSlide = () => {
           <SkillSetTitleContainer>
             <h1>Frontend Developer</h1>
           </SkillSetTitleContainer>
+          <ButtonContainer>
+            <PrimaryButton
+              buttonText={"My CV"}
+              onClick={() =>
+                window.open(
+                  "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                  "_blank"
+                )
+              }
+            />
+          </ButtonContainer>
         </HalfWidthTextContainer>
 
         <HalfWidthTextContainer>
