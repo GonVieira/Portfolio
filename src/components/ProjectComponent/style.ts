@@ -12,7 +12,7 @@ export const ProjectComponentWrapper = styled.a`
 
   :hover {
     border: 0.5px solid transparent;
-    transition: 0.5 ease;
+    transition: 0.5s ease;
   }
 `;
 
@@ -45,7 +45,6 @@ export const ProjectNameContainer = styled.div`
   h2 {
     color: white;
   }
-
 
   ${ProjectComponentWrapper}:hover & {
     opacity: 1;

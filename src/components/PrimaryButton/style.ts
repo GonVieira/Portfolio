@@ -7,14 +7,16 @@ export const StyledButton = styled.button`
   color: #ffffff;
   text-align: center;
   font-size: 1.4rem;
-  padding: 15px;
+  padding: 1rem;
   width: 50%;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
+  border: none;
 
   :hover {
-    padding-right: 0.5rem;
+    padding-right: 0.2rem;
+    background-color: #77a3f7;
   }
 `;
 
@@ -25,7 +27,7 @@ export const StyledBtnText = styled.span`
     content: "»";
     position: relative;
     opacity: 0;
-    right: -0.5rem;
+    right: -0.3rem;
     transition: 0.5s;
 
     ${StyledButton}:hover & {

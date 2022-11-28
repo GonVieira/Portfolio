@@ -1,6 +1,8 @@
 import React from "react";
+import PrimaryButton from "../../components/PrimaryButton/PrimaryButton";
 import Project from "../../components/ProjectComponent/Project";
 import {
+  GitAccContainer,
   ProjectsContainer,
   ProjectSlideTitleContainer,
   ThirdSlideContainer,
@@ -44,6 +46,17 @@ const ThirdSlide = () => {
             );
           })}
         </ProjectsContainer>
+        <GitAccContainer>
+            <PrimaryButton
+              buttonText={"My Github"}
+              onClick={() =>
+                window.open(
+                  "https://github.com/GonVieira",
+                  "_blank"
+                )
+              }
+            />
+          </GitAccContainer>
       </ThirdSlideContentWrapper>
     </ThirdSlideContainer>
   );

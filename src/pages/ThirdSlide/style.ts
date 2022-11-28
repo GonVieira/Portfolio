@@ -34,7 +34,7 @@ export const ProjectSlideTitleContainer = styled.div`
 export const ProjectsContainer = styled.div`
     display: grid;
     width: 100%;
-    height: 80%;
+    height: auto;
     align-items: center;
     justify-items: center;
     gap: 50px;
@@ -42,4 +42,14 @@ export const ProjectsContainer = styled.div`
     grid-template-columns: auto auto;
     grid-column-start: 1;
     grid-column-end: 2;
+    padding: 50px;
 `
+
+export const GitAccContainer = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: auto;
+`
+
