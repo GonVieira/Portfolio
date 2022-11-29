@@ -20,14 +20,15 @@ export const ThirdSlideContentWrapper = styled.div`
 
 export const ProjectSlideTitleContainer = styled.div`
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
-    width: 100%;
+    width: 85%;
     height: 10%;
 
     h1 {
-        color: white;
+        color: #689af8;
         font-weight: bold;
+        font-size: 2rem;
     }
 `
 
@@ -37,12 +38,10 @@ export const ProjectsContainer = styled.div`
     height: auto;
     align-items: center;
     justify-items: center;
-    gap: 50px;
-    padding: 20px;
+    gap: 0rem;
     grid-template-columns: auto auto;
     grid-column-start: 1;
     grid-column-end: 2;
-    padding: 50px;
 `
 
 export const GitAccContainer = styled.div`
@@ -50,6 +49,7 @@ export const GitAccContainer = styled.div`
     justify-content: center;
     align-items: center;
     width: 60%;
-    height: auto;
+    height: 10%;
+    margin-top: 5%;
 `
 

@@ -5,9 +5,10 @@ export const ProjectComponentWrapper = styled.a`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80%;
-  height: 80%;
+  width: 70%;
+  height: 70%;
   overflow: hidden;
+  border-radius: 5%;
   border: 0.5px solid #689af8;
 
   :hover {
@@ -23,6 +24,7 @@ export const ProjectImg = styled.img`
   width: 100%;
   height: auto;
   transition: 0.5s ease;
+  border-radius: 5%;
   cursor: pointer;
 
   ${ProjectComponentWrapper}:hover & {

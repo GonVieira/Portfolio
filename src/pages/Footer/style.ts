@@ -10,7 +10,7 @@ export const FooterWrapper = styled.div`
   border-top: 1px solid #999999;
 
   h2{
-    color: #999999;
+    color: #a6a6a6;
     font-size: 1rem;
   }
 `;

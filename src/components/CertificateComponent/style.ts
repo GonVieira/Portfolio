@@ -5,11 +5,12 @@ export const CertificateComponentWrapper = styled.a`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80%;
-  height: 80%;
+  width: 60%;
+  height: 60%;
   overflow: hidden;
   border: 0.5px solid #689af8;
-  margin: 1rem;
+  margin: 1.4rem;
+  border-radius: 5%;
 
   :hover {
     border: 0.5px solid transparent;
@@ -24,6 +25,7 @@ export const CertificateImage = styled.img`
   width: 100%;
   height: auto;
   transition: 0.5s ease;
+  border-radius: 5%;
   cursor: pointer;
 
   ${CertificateComponentWrapper}:hover & {

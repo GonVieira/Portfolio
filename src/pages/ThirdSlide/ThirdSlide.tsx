@@ -47,16 +47,13 @@ const ThirdSlide = () => {
           })}
         </ProjectsContainer>
         <GitAccContainer>
-            <PrimaryButton
-              buttonText={"My Github"}
-              onClick={() =>
-                window.open(
-                  "https://github.com/GonVieira",
-                  "_blank"
-                )
-              }
-            />
-          </GitAccContainer>
+          <PrimaryButton
+            buttonText={"My Github"}
+            onClick={() =>
+              window.open("https://github.com/GonVieira", "_blank")
+            }
+          />
+        </GitAccContainer>
       </ThirdSlideContentWrapper>
     </ThirdSlideContainer>
   );

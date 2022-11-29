@@ -27,7 +27,7 @@ const FirstSlide = () => {
         </TextContainer>
         <ImgContainer>
           <MyImg
-            src="https://cdn.discordapp.com/attachments/832239784244150292/1029464751958413333/dasfasdffasd.jpg"
+            src="https://cdn.discordapp.com/attachments/832239784244150292/1047202066055041096/image.png"
             alt="Gonçalo Vieira photograph"
           />
         </ImgContainer>

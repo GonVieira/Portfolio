@@ -27,8 +27,8 @@ export const HalfWidthTextContainer = styled.div`
   width: 50%;
   height: 100%;
   p {
-    font-size: 1.2rem;
-    color: #999999;
+    font-size: 1.6rem;
+    color: #a6a6a6;
   }
 `;
 
@@ -49,11 +49,11 @@ export const SkillSetTitleContainer = styled.div`
     padding-left: 4px;
     color: #689af8;
   }
-`
+`;
 
 export const ButtonContainer = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: center;
   padding-top: 1rem;
-`
+`;

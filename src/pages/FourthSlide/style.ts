@@ -11,23 +11,25 @@ export const FourthSlideContainer = styled.div`
 
 export const FourthSlideContentWrapper = styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   flex-direction: column;
   width: 75%;
-  height: 100%;
+  height: 90%;
 `;
 
 export const FourthSlideTitleContainer = styled.div`
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     width: 100%;
-    height: 20%;
+    height: 8%;
+    padding-left: 2rem;
 
     h1 {
-        color: white;
+        color: #689af8;
         font-weight: bold;
+        font-size: 2rem;
     }
 `
 
@@ -36,6 +38,6 @@ export const CertificatesContainer = styled.div`
     width: 100%;
     height: auto;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     flex-direction: row;
 ` 

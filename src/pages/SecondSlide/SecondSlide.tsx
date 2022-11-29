@@ -34,13 +34,12 @@ const SecondSlide = () => {
 
         <HalfWidthTextContainer>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            &nbsp; My expertise is building responsive and smooth user-facing
+            features of websites in React.Js. <br />
+            I've done numerous projects, from single page static websites
+            to dynamic websites, most of those websites being e-commerce. <br />
+            I always seek new interesting opportunities, new technologies
+            and cool people to work with.
           </p>
         </HalfWidthTextContainer>
       </SecondSlideContentWrapper>
