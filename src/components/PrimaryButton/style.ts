@@ -13,6 +13,7 @@ export const StyledButton = styled.button`
   cursor: pointer;
   margin: 5px;
   border: none;
+  font-weight: bold;
 
   :hover {
     padding-right: 0.2rem;
@@ -22,7 +23,7 @@ export const StyledButton = styled.button`
 
 export const StyledBtnText = styled.span`
   color: white;
-
+  font-weight: bold;
   :after {
     content: "»";
     position: relative;

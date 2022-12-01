@@ -12,10 +12,10 @@ export const SecondSlideContainer = styled.div`
 
 export const SecondSlideContentWrapper = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-direction: row;
-  width: 60%;
+  width: 65%;
   height: 100%;
 `;
 
@@ -24,7 +24,7 @@ export const HalfWidthTextContainer = styled.div`
   justify-content: center;
   align-self: center;
   flex-direction: column;
-  width: 50%;
+  width: 45%;
   height: 100%;
   p {
     font-size: 1.6rem;

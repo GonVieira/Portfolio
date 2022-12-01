@@ -10,7 +10,7 @@ export const CertificateComponentWrapper = styled.a`
   overflow: hidden;
   border: 0.5px solid #689af8;
   margin: 1.4rem;
-  border-radius: 5%;
+  border-radius: 4%;
 
   :hover {
     border: 0.5px solid transparent;
@@ -29,6 +29,29 @@ export const CertificateImage = styled.img`
   cursor: pointer;
 
   ${CertificateComponentWrapper}:hover & {
-    opacity: 0.6;
+    opacity: 0.4;
+  }
+`;
+
+
+export const CertificateNameContainer = styled.div`
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  cursor: pointer;
+
+  h2 {
+    font-size: 2.5rem;
+    color: white;
+    font-weight: bolder;
+  }
+
+  ${CertificateComponentWrapper}:hover & {
+    opacity: 1;
   }
 `;

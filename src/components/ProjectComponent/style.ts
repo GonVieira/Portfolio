@@ -8,7 +8,7 @@ export const ProjectComponentWrapper = styled.a`
   width: 70%;
   height: 70%;
   overflow: hidden;
-  border-radius: 5%;
+  border-radius: 3%;
   border: 0.5px solid #689af8;
 
   :hover {
@@ -30,7 +30,6 @@ export const ProjectImg = styled.img`
   ${ProjectComponentWrapper}:hover & {
     opacity: 0.3;
   }
-
 `;
 
 export const ProjectNameContainer = styled.div`
@@ -45,7 +44,9 @@ export const ProjectNameContainer = styled.div`
   cursor: pointer;
 
   h2 {
+    font-size: 2.8rem;
     color: white;
+    font-weight: bolder;
   }
 
   ${ProjectComponentWrapper}:hover & {

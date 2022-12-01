@@ -14,7 +14,7 @@ export const FourthSlideContentWrapper = styled.div`
   justify-content: flex-end;
   align-items: center;
   flex-direction: column;
-  width: 75%;
+  width: 70%;
   height: 90%;
 `;
 
@@ -22,7 +22,7 @@ export const FourthSlideTitleContainer = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  width: 100%;
+  width: 90%;
   height: 8%;
   padding-left: 2rem;
 
@@ -35,7 +35,7 @@ export const FourthSlideTitleContainer = styled.div`
 
 export const CertificatesContainer = styled.div`
   display: flex;
-  width: 100%;
+  width: 90%;
   height: auto;
   align-items: center;
   justify-content: center;

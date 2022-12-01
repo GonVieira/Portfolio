@@ -15,14 +15,14 @@ export const ThirdSlideContentWrapper = styled.div`
   align-items: center;
   flex-direction: column;
   width: 75%;
-  height: 90%;
+  height: 100%;
 `;
 
 export const ProjectSlideTitleContainer = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  width: 85%;
+  width: 80%;
   height: 10%;
 
   h1 {
@@ -34,11 +34,10 @@ export const ProjectSlideTitleContainer = styled.div`
 
 export const ProjectsContainer = styled.div`
   display: grid;
-  width: 100%;
+  width: 95%;
   height: auto;
   align-items: center;
   justify-items: center;
-  gap: 0rem;
   grid-template-columns: auto auto;
   grid-column-start: 1;
   grid-column-end: 2;
@@ -47,7 +46,7 @@ export const ProjectsContainer = styled.div`
 export const GitAccContainer = styled.div`
   display: flex;
   justify-content: center;
-  align-items: center;
-  width: 60%;
-  height: 8%;
+  align-items: flex-end;
+  width: 40%;
+  height: 10%;
 `;

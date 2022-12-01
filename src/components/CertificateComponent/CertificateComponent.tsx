@@ -1,15 +1,19 @@
 import React from "react";
-import { CertificateComponentWrapper, CertificateImage } from "./style";
+import { CertificateComponentWrapper, CertificateImage, CertificateNameContainer } from "./style";
 
 interface CertificatInfoProp {
+  name: string;
   url: string;
   img: string;
 }
 
-const CertificateComponent = ({ url, img }: CertificatInfoProp) => {
+const CertificateComponent = ({ name, url, img }: CertificatInfoProp) => {
   return (
     <CertificateComponentWrapper href={url} target="blank">
       <CertificateImage src={img} />
+      <CertificateNameContainer>
+        <h2>{name}</h2>
+      </CertificateNameContainer>
     </CertificateComponentWrapper>
   );
 };
