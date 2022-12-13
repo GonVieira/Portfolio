@@ -6,9 +6,9 @@ export const StyledButton = styled.button`
   background-color: #689af8;
   color: #ffffff;
   text-align: center;
-  font-size: 1.4rem;
-  padding: 1rem;
-  width: 50%;
+  font-size: 1.3rem;
+  padding: 0.9rem;
+  width: 55%;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
@@ -19,6 +19,19 @@ export const StyledButton = styled.button`
     padding-right: 0.2rem;
     background-color: #77a3f7;
   }
+
+   //Tablets
+   @media screen and (max-width: 768px) {
+      font-size: 1.1rem;
+      padding: 0.8rem;
+      width: 60%;
+    }
+    //Mobile
+    @media screen and (max-width: 480px) {
+      font-size: 1.1rem;
+      width: 75%;
+      padding: 0.7rem;
+    }
 `;
 
 export const StyledBtnText = styled.span`

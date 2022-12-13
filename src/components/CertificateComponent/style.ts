@@ -16,6 +16,18 @@ export const CertificateComponentWrapper = styled.a`
     border: 0.5px solid transparent;
     transition: 0.5s ease;
   }
+
+  //Tablets
+  @media screen and (max-width: 768px) {
+    width: 70%;
+    height: 70%;
+  }
+
+  //Mobile
+  @media screen and (max-width: 480px) {
+    width: 80%;
+    height: 80%;
+  }
 `;
 
 export const CertificateImage = styled.img`
@@ -32,7 +44,6 @@ export const CertificateImage = styled.img`
     opacity: 0.4;
   }
 `;
-
 
 export const CertificateNameContainer = styled.div`
   transition: 0.5s ease;

@@ -10,10 +10,23 @@ export const ProjectComponentWrapper = styled.a`
   overflow: hidden;
   border-radius: 3%;
   border: 0.5px solid #689af8;
+  margin: 1rem;
 
   :hover {
     border: 0.5px solid transparent;
     transition: 0.5s ease;
+  }
+
+  //Tablets
+  @media screen and (max-width: 768px) {
+    width: 80%;
+    height: 80%;
+  }
+
+  //Mobile
+  @media screen and (max-width: 480px) {
+    width: 70%;
+    height: 70%;
   }
 `;
 
@@ -47,6 +60,19 @@ export const ProjectNameContainer = styled.div`
     font-size: 2.8rem;
     color: white;
     font-weight: bolder;
+
+    //Laptops and small screens
+    @media screen and (max-width: 1024px) {
+      font-size: 2.5rem;
+    }
+    //Tablets
+    @media screen and (max-width: 768px) {
+      font-size: 2.3rem;
+    }
+    //Mobile
+    @media screen and (max-width: 480px) {
+      font-size: 2rem;
+    }
   }
 
   ${ProjectComponentWrapper}:hover & {

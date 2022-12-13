@@ -3,17 +3,17 @@ import { FixedButton, IconContainer } from "./style";
 import { FaArrowCircleUp } from "react-icons/fa";
 
 interface TopButtonProps {
-  isActive : boolean;
+  isActive: boolean;
 }
 
-const GoToTopButton = ( {isActive} : TopButtonProps) => {
-
+const GoToTopButton = ({ isActive }: TopButtonProps) => {
   return (
-    <FixedButton isActive={isActive}
+    <FixedButton
+      isActive={isActive}
       onClick={() => window.scrollTo({ top: 0, left: 0, behavior: "smooth" })}
     >
       <IconContainer>
-      <FaArrowCircleUp size={40}/>
+        <FaArrowCircleUp size={40} />
       </IconContainer>
     </FixedButton>
   );

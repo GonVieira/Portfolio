@@ -2,17 +2,18 @@ import React from "react";
 import PrimaryButton from "../../components/PrimaryButton/PrimaryButton";
 import {
   ButtonContainer,
-  HalfWidthTextContainer,
   SecondSlideContainer,
   SecondSlideContentWrapper,
   SkillSetTitleContainer,
+  TextContainer,
+  TitlesContainer,
 } from "./style";
 
 const SecondSlide = () => {
   return (
     <SecondSlideContainer id="section2">
       <SecondSlideContentWrapper>
-        <HalfWidthTextContainer>
+        <TitlesContainer>
           <SkillSetTitleContainer>
             <h2>My Skillset</h2>
           </SkillSetTitleContainer>
@@ -30,18 +31,18 @@ const SecondSlide = () => {
               }
             />
           </ButtonContainer>
-        </HalfWidthTextContainer>
+        </TitlesContainer>
 
-        <HalfWidthTextContainer>
+        <TextContainer>
           <p>
             &nbsp; My expertise is building responsive and smooth user-facing
             features of websites in React.Js. <br />
-            I've done numerous projects, from single page static websites
-            to dynamic websites, most of those websites being e-commerce. <br />
-            I always seek new interesting opportunities, new technologies
-            and cool people to work with.
+            I've done numerous projects, from single page static websites to
+            dynamic websites, most of those websites being e-commerce. <br />I
+            always seek new interesting opportunities, new technologies and cool
+            people to work with.
           </p>
-        </HalfWidthTextContainer>
+        </TextContainer>
       </SecondSlideContentWrapper>
     </SecondSlideContainer>
   );

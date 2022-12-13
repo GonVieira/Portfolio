@@ -18,6 +18,11 @@ export const FirstSlideContentWrapper = styled.div`
   flex-direction: row;
   height: 100%;
   width: 80%;
+
+  //Tablets
+  @media screen and (max-width: 768px) {
+    width: 90%;
+  }
 `;
 
 export const TextContainer = styled.div`
@@ -44,6 +49,16 @@ export const IntroText = styled.h2`
   font-weight: bold;
   color: white;
   margin-bottom: 0;
+
+  //Tablets
+  @media screen and (max-width: 768px) {
+    font-size: 1.8rem;
+  }
+
+  //Mobile
+  @media screen and (max-width: 480px) {
+    font-size: 1.2rem;
+  }
 `;
 
 export const MyNameText = styled.h1`
@@ -51,11 +66,31 @@ export const MyNameText = styled.h1`
   font-weight: bold;
   color: #689af8;
   margin: 0;
+
+  //Tablets
+  @media screen and (max-width: 768px) {
+    font-size: 2.8rem;
+  }
+
+  //Mobile
+  @media screen and (max-width: 480px) {
+    font-size: 2.2rem;
+  }
 `;
 
 export const MyText = styled.p`
   font-size: 1.8rem;
   color: #a6a6a6;
+
+  //Tablets
+  @media screen and (max-width: 768px) {
+    font-size: 1.5rem;
+  }
+
+  //Mobile
+  @media screen and (max-width: 480px) {
+    font-size: 1.1rem;
+  }
 `;
 
 export const ImgContainer = styled.div`

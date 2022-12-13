@@ -5,6 +5,9 @@ interface BtnProps {
 }
 
 export const FixedButton = styled.button<BtnProps>`
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: fixed;
   padding: 0.6rem;
   font-size: 2rem;
@@ -13,7 +16,6 @@ export const FixedButton = styled.button<BtnProps>`
   background-color: #689af8;
   color: #fff;
   text-align: center;
-  justify-content: center;
   cursor: pointer;
   border: none;
   border-radius: 50%;
@@ -22,7 +24,7 @@ export const FixedButton = styled.button<BtnProps>`
   visibility: ${(props) => (props.isActive ? "visible" : "hidden")};
 
   :hover {
-    background-color: rgb(23,30,34);
+    background-color: rgb(23, 30, 34);
   }
 `;
 
