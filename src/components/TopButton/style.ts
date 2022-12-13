@@ -26,6 +26,20 @@ export const FixedButton = styled.button<BtnProps>`
   :hover {
     background-color: rgb(23, 30, 34);
   }
+
+  //Tablets
+  @media screen and (max-width: 768px) {
+    bottom: 50px;
+    right: 20px;
+    padding: 0.5rem;
+  }
+  //Mobile
+  @media screen and (max-width: 480px) {
+    bottom: 45px;
+    right: 10px;
+    padding: 0.3rem;
+  }
+  
 `;
 
 export const IconContainer = styled.div`

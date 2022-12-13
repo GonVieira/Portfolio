@@ -13,7 +13,7 @@ const GoToTopButton = ({ isActive }: TopButtonProps) => {
       onClick={() => window.scrollTo({ top: 0, left: 0, behavior: "smooth" })}
     >
       <IconContainer>
-        <FaArrowCircleUp size={40} />
+        <FaArrowCircleUp size={35} />
       </IconContainer>
     </FixedButton>
   );

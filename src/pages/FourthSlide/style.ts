@@ -16,6 +16,19 @@ export const FourthSlideContentWrapper = styled.div`
   flex-direction: column;
   width: 70%;
   height: 90%;
+
+  //Laptops and small screens
+  @media screen and (max-width: 1024px) {
+    width: 75%;
+  }
+  //Tablets
+  @media screen and (max-width: 768px) {
+    width: 80%;
+  }
+  //Mobile
+  @media screen and (max-width: 480px) {
+    width: 85%;
+  }
 `;
 
 export const FourthSlideTitleContainer = styled.div`

@@ -19,8 +19,8 @@ export const CertificateComponentWrapper = styled.a`
 
   //Tablets
   @media screen and (max-width: 768px) {
-    width: 70%;
-    height: 70%;
+    width: 65%;
+    height: 65%;
   }
 
   //Mobile
@@ -60,6 +60,19 @@ export const CertificateNameContainer = styled.div`
     font-size: 2.5rem;
     color: white;
     font-weight: bolder;
+
+    //Laptops and small screens
+    @media screen and (max-width: 1024px) {
+      font-size: 2.3rem;
+    }
+    //Tablets
+    @media screen and (max-width: 768px) {
+      font-size: 2.1rem;
+    }
+    //Mobile
+    @media screen and (max-width: 480px) {
+      font-size: 2rem;
+    }
   }
 
   ${CertificateComponentWrapper}:hover & {
