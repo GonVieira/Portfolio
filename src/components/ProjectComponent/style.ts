@@ -12,9 +12,11 @@ export const ProjectComponentWrapper = styled.a`
   border: 0.5px solid #689af8;
   margin: 1rem;
 
-  :hover {
-    border: 0.5px solid transparent;
-    transition: 0.5s ease;
+  @media (hover: hover) and (pointer: fine) {
+    :hover {
+      border: 0.5px solid transparent;
+      transition: 0.5s ease;
+    }
   }
 
   //Tablets
@@ -40,8 +42,10 @@ export const ProjectImg = styled.img`
   border-radius: 5%;
   cursor: pointer;
 
-  ${ProjectComponentWrapper}:hover & {
-    opacity: 0.3;
+  @media (hover: hover) and (pointer: fine) {
+    ${ProjectComponentWrapper}:hover & {
+      opacity: 0.3;
+    }
   }
 `;
 
@@ -75,7 +79,9 @@ export const ProjectNameContainer = styled.div`
     }
   }
 
-  ${ProjectComponentWrapper}:hover & {
-    opacity: 1;
+  @media (hover: hover) and (pointer: fine) {
+    ${ProjectComponentWrapper}:hover & {
+      opacity: 1;
+    }
   }
 `;

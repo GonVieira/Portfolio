@@ -99,6 +99,7 @@ export const GitAccContainer = styled.div`
   //Tablets
   @media screen and (max-width: 768px) {
     width: 55%;
+    padding-top: 1rem;
   }
 
   //Mobile

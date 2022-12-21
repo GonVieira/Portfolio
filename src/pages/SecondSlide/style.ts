@@ -28,7 +28,7 @@ export const SecondSlideContentWrapper = styled.div`
   }
   //Mobile
   @media screen and (max-width: 480px) {
-    width: 85%;
+    width: 80%;
     height: 100%;
     flex-direction: column;
     justify-content: center;

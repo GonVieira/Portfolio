@@ -7,6 +7,12 @@ export const FourthSlideContainer = styled.div`
   width: 100%;
   height: 80%;
   background-color: rgb(23, 30, 34);
+  
+  //Mobile
+  @media screen and (max-width: 480px) {
+    height: 100%;
+  }
+  
 `;
 
 export const FourthSlideContentWrapper = styled.div`
@@ -23,7 +29,7 @@ export const FourthSlideContentWrapper = styled.div`
   }
   //Tablets
   @media screen and (max-width: 768px) {
-    width: 80%;
+    width: 70%;
   }
   //Mobile
   @media screen and (max-width: 480px) {

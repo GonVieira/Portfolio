@@ -23,6 +23,13 @@ export const FirstSlideContentWrapper = styled.div`
   @media screen and (max-width: 768px) {
     width: 90%;
   }
+
+  //Mobile
+  @media screen and (max-width: 480px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export const TextContainer = styled.div`
@@ -33,6 +40,12 @@ export const TextContainer = styled.div`
   width: 50%;
   height: 100%;
   padding: 10px;
+
+  //Mobile
+  @media screen and (max-width: 480px) {
+    width: 80%;
+    height: 60%;
+  }
 `;
 
 export const TextWrapper = styled.div`
@@ -42,6 +55,12 @@ export const TextWrapper = styled.div`
   flex-direction: column;
   width: 70%;
   padding: 10px;
+
+  //Mobile
+  @media screen and (max-width: 480px) {
+    width: 100%;
+
+  }
 `;
 
 export const IntroText = styled.h2`
@@ -84,7 +103,7 @@ export const MyText = styled.p`
 
   //Tablets
   @media screen and (max-width: 768px) {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   //Mobile
@@ -98,14 +117,23 @@ export const ImgContainer = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 25%;
+  width: 20%;
   height: auto;
-  border-radius: 100%;
+
+  //Tablets
+  @media screen and (max-width: 768px) {
+    width: 30%;
+  }
+
+  //Mobile
+  @media screen and (max-width: 480px) {
+    width: 50%;
+  }
 `;
 
 export const MyImg = styled.img`
   width: 100%;
   height: 100%;
   object-fit: fill;
-  border-radius: 50%;
+  border-radius: 2%;
 `;

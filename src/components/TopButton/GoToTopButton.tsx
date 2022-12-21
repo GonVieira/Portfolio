@@ -4,13 +4,21 @@ import { FaArrowCircleUp } from "react-icons/fa";
 
 interface TopButtonProps {
   isActive: boolean;
+  setIsActive: React.Dispatch<React.SetStateAction<boolean>>
 }
 
-const GoToTopButton = ({ isActive }: TopButtonProps) => {
+const GoToTopButton = ({ isActive, setIsActive}: TopButtonProps) => {
+
+  const clickHandler = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    setIsActive(false);
+  }
+
+
   return (
     <FixedButton
       isActive={isActive}
-      onClick={() => window.scrollTo({ top: 0, left: 0, behavior: "smooth" })}
+      onClick={clickHandler}
     >
       <IconContainer>
         <FaArrowCircleUp size={35} />

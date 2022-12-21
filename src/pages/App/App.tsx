@@ -31,7 +31,7 @@ function App() {
       <ThirdSlide />
       <FourthSlide />
       <Footer />
-      <GoToTopButton isActive={showButton}/>
+      <GoToTopButton isActive={showButton} setIsActive={setShowButton}/>
     </AppContainer>
   );
 }

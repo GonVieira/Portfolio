@@ -23,8 +23,11 @@ export const FixedButton = styled.button<BtnProps>`
   transition: 0.5s ease-in;
   visibility: ${(props) => (props.isActive ? "visible" : "hidden")};
 
-  :hover {
-    background-color: rgb(23, 30, 34);
+  
+  @media (hover: hover) and (pointer: fine) {
+    :hover {
+      background-color: rgb(23, 30, 34);
+    }
   }
 
   //Tablets
@@ -39,7 +42,6 @@ export const FixedButton = styled.button<BtnProps>`
     right: 10px;
     padding: 0.3rem;
   }
-  
 `;
 
 export const IconContainer = styled.div`

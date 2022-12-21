@@ -12,9 +12,11 @@ export const CertificateComponentWrapper = styled.a`
   margin: 1.4rem;
   border-radius: 4%;
 
-  :hover {
-    border: 0.5px solid transparent;
-    transition: 0.5s ease;
+  @media (hover: hover) and (pointer: fine) {
+    :hover {
+      border: 0.5px solid transparent;
+      transition: 0.5s ease;
+    }
   }
 
   //Tablets
@@ -40,8 +42,10 @@ export const CertificateImage = styled.img`
   border-radius: 5%;
   cursor: pointer;
 
-  ${CertificateComponentWrapper}:hover & {
-    opacity: 0.4;
+  @media (hover: hover) and (pointer: fine) {
+    ${CertificateComponentWrapper}:hover & {
+      opacity: 0.4;
+    }
   }
 `;
 
@@ -57,25 +61,24 @@ export const CertificateNameContainer = styled.div`
   cursor: pointer;
 
   h2 {
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     color: white;
     font-weight: bolder;
 
     //Laptops and small screens
     @media screen and (max-width: 1024px) {
-      font-size: 2.3rem;
+      font-size: 2rem;
     }
+    
     //Tablets
     @media screen and (max-width: 768px) {
-      font-size: 2.1rem;
-    }
-    //Mobile
-    @media screen and (max-width: 480px) {
-      font-size: 2rem;
+      font-size: 1.8rem;
     }
   }
 
-  ${CertificateComponentWrapper}:hover & {
-    opacity: 1;
+  @media (hover: hover) and (pointer: fine) {
+    ${CertificateComponentWrapper}:hover & {
+      opacity: 1;
+    }
   }
 `;

@@ -15,37 +15,41 @@ export const StyledButton = styled.button`
   border: none;
   font-weight: bold;
 
-  :hover {
-    padding-right: 0.2rem;
-    background-color: #77a3f7;
+  @media (hover: hover) and (pointer: fine) {
+    :hover {
+      padding-right: 0.2rem;
+      background-color: #77a3f7;
+    }
   }
 
-   //Tablets
-   @media screen and (max-width: 768px) {
-      font-size: 1.1rem;
-      padding: 0.8rem;
-      width: 60%;
-    }
-    //Mobile
-    @media screen and (max-width: 480px) {
-      font-size: 1.1rem;
-      width: 75%;
-      padding: 0.7rem;
-    }
+  //Tablets
+  @media screen and (max-width: 768px) {
+    font-size: 1.1rem;
+    padding: 0.8rem;
+    width: 60%;
+  }
+  //Mobile
+  @media screen and (max-width: 480px) {
+    font-size: 1.1rem;
+    width: 75%;
+    padding: 0.7rem;
+  }
 `;
 
 export const StyledBtnText = styled.span`
   color: white;
   font-weight: bold;
-  :after {
-    content: "»";
-    position: relative;
-    opacity: 0;
-    right: -0.3rem;
-    transition: 0.5s;
+  @media (hover: hover) and (pointer: fine) {
+    :after {
+      content: "»";
+      position: relative;
+      opacity: 0;
+      right: -0.3rem;
+      transition: 0.5s;
 
-    ${StyledButton}:hover & {
-      opacity: 1;
+      ${StyledButton}:hover & {
+        opacity: 1;
+      }
     }
   }
 `;
