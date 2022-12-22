@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import GoToTopButton from "../../components/TopButton/GoToTopButton";
-import NavBar from "../../components/NavBar/NavBar";
 import FirstSlide from "../FirstSlide/FirstSlide";
 import Footer from "../Footer/Footer";
 import FourthSlide from "../FourthSlide/FourthSlide";
@@ -23,9 +22,6 @@ function App() {
 
   return (
     <AppContainer>
-      {/** 
-      <NavBar />
-      */}
       <FirstSlide />
       <SecondSlide />
       <ThirdSlide />

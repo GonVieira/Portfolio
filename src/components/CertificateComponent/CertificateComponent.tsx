@@ -10,7 +10,7 @@ interface CertificatInfoProp {
 const CertificateComponent = ({ name, url, img }: CertificatInfoProp) => {
   return (
     <CertificateComponentWrapper href={url} target="blank">
-      <CertificateImage src={img} />
+      <CertificateImage src={img} alt={name + " image."}/>
       <CertificateNameContainer>
         <h2>{name}</h2>
       </CertificateNameContainer>

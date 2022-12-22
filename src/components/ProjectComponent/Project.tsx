@@ -14,7 +14,7 @@ interface ProjectInfoProp {
 const Project = ({ name, url, img }: ProjectInfoProp) => {
   return (
     <ProjectComponentWrapper href={url} target="blank">
-      <ProjectImg src={img} />
+      <ProjectImg src={img} alt={name + " project image."}/>
       <ProjectNameContainer>
         <h2>{name}</h2>
       </ProjectNameContainer>
