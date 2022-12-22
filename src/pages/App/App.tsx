@@ -6,6 +6,7 @@ import FourthSlide from "../FourthSlide/FourthSlide";
 import SecondSlide from "../SecondSlide/SecondSlide";
 import ThirdSlide from "../ThirdSlide/ThirdSlide";
 import { AppContainer } from "./style";
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   const [showButton, setShowButton] = useState(false);
@@ -28,6 +29,7 @@ function App() {
       <FourthSlide />
       <Footer />
       <GoToTopButton isActive={showButton} setIsActive={setShowButton}/>
+      <Analytics />
     </AppContainer>
   );
 }
