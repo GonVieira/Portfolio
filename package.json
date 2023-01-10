@@ -1,6 +1,10 @@
 {
+  "author": "Gonçalo Vieira",
   "name": "portfolio",
-  "version": "0.1.0",
+  "description": "Gonçalo Vieira portfolio.",
+  "keywords": ["portfolio", "react", "typescript", "frontend", "projects", "certificates"],
+  "license": "MIT",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
