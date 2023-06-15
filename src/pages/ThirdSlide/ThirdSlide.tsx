@@ -23,7 +23,7 @@ const ThirdSlide = () => {
     },
     {
       name: "Bubble Store",
-      url: "git@github.com:GonVieira/Bubble-Store-Project.git",
+      url: "https://github.com/GonVieira/Bubble-Store-Project",
       img: "https://cdn.discordapp.com/attachments/987402831923392532/1044319568316870768/image.png",
     },
     {
