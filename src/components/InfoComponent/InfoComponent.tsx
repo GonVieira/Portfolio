@@ -1,5 +1,5 @@
 import React from "react";
-import { ImgContainer, InfoComponentWrapper, InfoImg, InfoNameContainer } from "./style";
+import { ImgContainer, InfoComponentWrapper, InfoImg } from "./style";
 
 interface InfoComponentProp {
   name: string;
@@ -13,9 +13,6 @@ const InfoConmponent = ({ name, url, img }: InfoComponentProp) => {
       <ImgContainer>
         <InfoImg src={img} alt={name + " project image."} />
       </ImgContainer>
-      <InfoNameContainer>
-        <h2>{name}</h2>
-      </InfoNameContainer>
     </InfoComponentWrapper>
   );
 };

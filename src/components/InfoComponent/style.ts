@@ -1,16 +1,14 @@
 import styled from "styled-components";
 
 export const InfoComponentWrapper = styled.a`
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70%;
-  height: 70%;
+  width: 100%;
+  height: 100%;
   overflow: hidden;
   border-radius: 5px;
   border: 0.5px solid #689af8;
-  margin: 1rem;
 
   @media (hover: hover) and (pointer: fine) {
     :hover {
@@ -68,7 +66,7 @@ export const InfoNameContainer = styled.div`
     @media screen and (max-width: 768px) {
       font-size: 2.1rem;
     }
-    
+
     //Mobile
     @media screen and (max-width: 480px) {
       font-size: 1.6rem;

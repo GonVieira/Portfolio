@@ -12,6 +12,8 @@ export const FourthSlideContainer = styled.div`
   @media (max-width: 992px) {
     height: 150%;
   }
+
+  
 `;
 
 export const FourthSlideContentWrapper = styled.div`
@@ -24,7 +26,7 @@ export const FourthSlideContentWrapper = styled.div`
 
   //Laptops and small screens
   @media screen and (max-width: 1024px) {
-    width: 75%;
+    width: 80%;
   }
   //Tablets
   @media screen and (max-width: 768px) {
@@ -67,13 +69,18 @@ export const FourthSlideTitleContainer = styled.div`
 
 export const CertificatesContainer = styled.div`
   display: grid;
-  width: 90%;
-  height: auto;
-  align-items: center;
-  justify-items: center;
-  grid-template-columns: auto auto;
-  grid-column-start: 1;
-  grid-column-end: 2;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 25px;
+  width: 70%;
+  height: 70%;
+  padding: 1.2rem;
+
+  //Laptops
+  @media (max-width: 992px) {
+    width: 100%;
+    height: 60%;
+  }
 
   //Tablets
   @media screen and (max-width: 768px) {
@@ -81,5 +88,7 @@ export const CertificatesContainer = styled.div`
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    width: 75%;
+    height: 75%;
   }
 `;
