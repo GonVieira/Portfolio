@@ -7,12 +7,11 @@ export const FourthSlideContainer = styled.div`
   width: 100%;
   height: 80%;
   background-color: rgb(23, 30, 34);
-  
-  //Mobile
-  @media screen and (max-width: 480px) {
-    height: 100%;
+
+  //Laptops
+  @media (max-width: 992px) {
+    height: 150%;
   }
-  
 `;
 
 export const FourthSlideContentWrapper = styled.div`
@@ -20,7 +19,7 @@ export const FourthSlideContentWrapper = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 70%;
+  width: 75%;
   height: 90%;
 
   //Laptops and small screens
@@ -29,7 +28,7 @@ export const FourthSlideContentWrapper = styled.div`
   }
   //Tablets
   @media screen and (max-width: 768px) {
-    width: 70%;
+    width: 75%;
   }
   //Mobile
   @media screen and (max-width: 480px) {
@@ -41,9 +40,8 @@ export const FourthSlideTitleContainer = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  width: 90%;
+  width: 80%;
   height: 10%;
-  padding-left: 2rem;
 
   h1 {
     color: #689af8;
@@ -68,15 +66,20 @@ export const FourthSlideTitleContainer = styled.div`
 `;
 
 export const CertificatesContainer = styled.div`
-  display: flex;
+  display: grid;
   width: 90%;
   height: auto;
   align-items: center;
-  justify-content: center;
-  flex-direction: row;
+  justify-items: center;
+  grid-template-columns: auto auto;
+  grid-column-start: 1;
+  grid-column-end: 2;
 
   //Tablets
   @media screen and (max-width: 768px) {
+    display: flex;
+    justify-content: center;
     flex-direction: column;
+    align-items: center;
   }
 `;

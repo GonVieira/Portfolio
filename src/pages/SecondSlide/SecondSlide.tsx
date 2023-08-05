@@ -25,7 +25,7 @@ const SecondSlide = () => {
               buttonText={"My CV"}
               onClick={() =>
                 window.open(
-                  "https://drive.google.com/file/d/1ZQ-TkZwRKwnf9_5l9v1zIaUJ4bQvnYoN/view?usp=sharing",
+                  "https://drive.google.com/file/d/1bBJBPLvofRbC9hP3etie9DN3TLNFB_QV/view?usp=sharing",
                   "_blank"
                 )
               }

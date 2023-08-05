@@ -98,11 +98,6 @@ export const SkillSetTitleContainer = styled.div`
   justify-content: flex-start;
   align-items: center;
 
-  //Mobile
-  @media screen and (max-width: 480px) {
-    justify-content: center;
-  }
-
   h1 {
     font-size: 2.5rem;
     margin: 0.5%;

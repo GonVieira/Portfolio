@@ -1,6 +1,5 @@
 import React from "react";
 import PrimaryButton from "../../components/PrimaryButton/PrimaryButton";
-import Project from "../../components/ProjectComponent/Project";
 import {
   GitAccContainer,
   ProjectsContainer,
@@ -8,9 +7,15 @@ import {
   ThirdSlideContainer,
   ThirdSlideContentWrapper,
 } from "./style";
+import InfoConmponent from "../../components/InfoComponent/InfoComponent";
 
 const ThirdSlide = () => {
   const projectsArr = [
+    {
+      name: "Game Backlog Manager",
+      url: "https://github.com/GonVieira/backlog-manager",
+      img: "https://cdn.discordapp.com/attachments/1070077755120701540/1137431564360368299/image.png",
+    },
     {
       name: "Dealit",
       url: "https://github.com/rmzaoo/dealit-frontend",
@@ -26,11 +31,6 @@ const ThirdSlide = () => {
       url: "https://github.com/GonVieira/Bubble-Store-Project",
       img: "https://cdn.discordapp.com/attachments/987402831923392532/1044319568316870768/image.png",
     },
-    {
-      name: "Should You Do it",
-      url: "https://github.com/GonVieira/DoItCenas",
-      img: "https://cdn.discordapp.com/attachments/987402831923392532/1044333745941004418/image.png",
-    },
   ];
 
   return (
@@ -42,7 +42,11 @@ const ThirdSlide = () => {
         <ProjectsContainer>
           {projectsArr.map((value) => {
             return (
-              <Project name={value.name} img={value.img} url={value.url} />
+              <InfoConmponent
+                name={value.name}
+                img={value.img}
+                url={value.url}
+              />
             );
           })}
         </ProjectsContainer>

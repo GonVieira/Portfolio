@@ -5,16 +5,11 @@ export const ThirdSlideContainer = styled.div`
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 110%;
+  height: 100%;
   background-color: rgb(23, 30, 34);
 
   //Tablets
   @media screen and (max-width: 768px) {
-    height: 80%;
-  }
-
-  //Mobile
-  @media screen and (max-width: 480px) {
     height: 150%;
   }
 `;
@@ -68,7 +63,7 @@ export const ProjectSlideTitleContainer = styled.div`
 
 export const ProjectsContainer = styled.div`
   display: grid;
-  width: 95%;
+  width: 90%;
   height: auto;
   align-items: center;
   justify-items: center;
@@ -78,10 +73,6 @@ export const ProjectsContainer = styled.div`
 
   //Tablets
   @media screen and (max-width: 768px) {
-  }
-
-  //Mobile
-  @media screen and (max-width: 480px) {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -100,9 +91,5 @@ export const GitAccContainer = styled.div`
   @media screen and (max-width: 768px) {
     width: 55%;
     padding-top: 1rem;
-  }
-
-  //Mobile
-  @media screen and (max-width: 480px) {
   }
 `;

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ProjectComponentWrapper = styled.a`
+export const InfoComponentWrapper = styled.a`
   position: relative;
   display: flex;
   justify-content: center;
@@ -8,7 +8,7 @@ export const ProjectComponentWrapper = styled.a`
   width: 70%;
   height: 70%;
   overflow: hidden;
-  border-radius: 3%;
+  border-radius: 5px;
   border: 0.5px solid #689af8;
   margin: 1rem;
 
@@ -18,38 +18,32 @@ export const ProjectComponentWrapper = styled.a`
       transition: 0.5s ease;
     }
   }
-
-  //Tablets
-  @media screen and (max-width: 768px) {
-    width: 80%;
-    height: 80%;
-  }
-
-  //Mobile
-  @media screen and (max-width: 480px) {
-    width: 70%;
-    height: 70%;
-  }
 `;
 
-export const ProjectImg = styled.img`
+export const ImgContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+`;
+
+export const InfoImg = styled.img`
   opacity: 1;
-  display: block;
   object-fit: cover;
   width: 100%;
-  height: auto;
+  height: 100%;
   transition: 0.5s ease;
-  border-radius: 5%;
   cursor: pointer;
 
   @media (hover: hover) and (pointer: fine) {
-    ${ProjectComponentWrapper}:hover & {
+    ${InfoComponentWrapper}:hover & {
       opacity: 0.3;
     }
   }
 `;
 
-export const ProjectNameContainer = styled.div`
+export const InfoNameContainer = styled.div`
   transition: 0.5s ease;
   opacity: 0;
   position: absolute;
@@ -61,26 +55,28 @@ export const ProjectNameContainer = styled.div`
   cursor: pointer;
 
   h2 {
-    font-size: 2.8rem;
+    font-size: 2.5rem;
     color: white;
     font-weight: bolder;
 
-    //Laptops and small screens
-    @media screen and (max-width: 1024px) {
-      font-size: 2.5rem;
-    }
-    //Tablets
-    @media screen and (max-width: 768px) {
+    //Laptops
+    @media (max-width: 992px) {
       font-size: 2.3rem;
     }
+
+    //Tablets
+    @media screen and (max-width: 768px) {
+      font-size: 2.1rem;
+    }
+    
     //Mobile
     @media screen and (max-width: 480px) {
-      font-size: 2rem;
+      font-size: 1.6rem;
     }
   }
 
   @media (hover: hover) and (pointer: fine) {
-    ${ProjectComponentWrapper}:hover & {
+    ${InfoComponentWrapper}:hover & {
       opacity: 1;
     }
   }
