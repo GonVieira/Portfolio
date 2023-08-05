@@ -25,14 +25,13 @@ const SecondSlide = () => {
               buttonText={"My CV"}
               onClick={() =>
                 window.open(
-                  "https://drive.google.com/file/d/1ySpN4JRHW6yl8ucuIfpxDAIJIizULCA5/view?usp=sharing",
+                  "https://drive.google.com/file/d/1ZQ-TkZwRKwnf9_5l9v1zIaUJ4bQvnYoN/view?usp=sharing",
                   "_blank"
                 )
               }
             />
           </ButtonContainer>
         </TitlesContainer>
-
         <TextContainer>
           <p>
             &nbsp; My expertise is building responsive and smooth user-facing
