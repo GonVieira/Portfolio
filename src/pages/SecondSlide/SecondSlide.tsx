@@ -39,8 +39,8 @@ const SecondSlide = () => {
             features of websites in React.Js. <br />
             I've done numerous projects, from single page static websites to
             dynamic websites, most of those websites being e-commerce. <br />I
-            always seek new interesting opportunities, new technologies and cool
-            people to work with.
+            always seek new interesting opportunities, new technologies,
+            challenging environments and amazing people to work with.
           </p>
         </TextContainer>
       </SecondSlideContentWrapper>

@@ -20,8 +20,10 @@ const FirstSlide = () => {
             <IntroText>Hello, it's me</IntroText>
             <MyNameText>Gonçalo Vieira</MyNameText>
             <MyText>
-              An tech and japanese culture enthusiast, currently improving my
-              skills in front end developend as a self learning developer!{" "}
+              A tenacious and dedicated programmer, who never gives up on any
+              challenge! <br />
+              Lover of tech, japanese culture and video games. <br />
+              Currently improving as a self learning developer!
             </MyText>
           </TextWrapper>
         </TextContainer>
