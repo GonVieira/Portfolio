@@ -1,0 +1,46 @@
+{
+  "projects": [
+    {
+      "name": "Game Backlog Manager",
+      "url": "https://github.com/GonVieira/backlog-manager",
+      "img": "https://cdn.discordapp.com/attachments/1070077755120701540/1137431564360368299/image.png"
+    },
+    {
+      "name": "Dealit",
+      "url": "https://github.com/rmzaoo/dealit-frontend",
+      "img": "https://cdn.discordapp.com/attachments/987402831923392532/1044314439903629443/image.png"
+    },
+    {
+      "name": "Pikamones",
+      "url": "https://github.com/GonVieira/Pikamones-React-Redux",
+      "img": "https://cdn.discordapp.com/attachments/987402831923392532/1044289475649486958/image.png"
+    },
+    {
+      "name": "Bubble Store",
+      "url": "https://github.com/GonVieira/Bubble-Store-Project",
+      "img": "https://cdn.discordapp.com/attachments/987402831923392532/1044319568316870768/image.png"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Backend Development and APIs",
+      "url": "https://www.freecodecamp.org/certification/gonvieira/back-end-development-and-apis",
+      "img": "https://cdn.discordapp.com/attachments/1070077755120701540/1137421546332377098/Backend_Development_Certificate.png"
+    },
+    {
+      "name": "Frontend Development Libraries",
+      "url": "https://www.freecodecamp.org/certification/gonvieira/front-end-development-libraries",
+      "img": "https://cdn.discordapp.com/attachments/1070077755120701540/1137421546575630457/FE_libraries_certificate.png"
+    },
+    {
+      "name": "Mindera School Participation Certificate",
+      "url": "https://drive.google.com/file/d/1Dm9L5siyDCC45J-QzlHPOSwEU-UcxNpB/view?usp=sharing",
+      "img": "https://cdn.discordapp.com/attachments/832239784244150292/1046870343068946483/Certificado_Mindera_School_21_22_Goncalo_Vieira-1.jpg"
+    },
+    {
+      "name": "Resposive Web Design Certificate",
+      "url": "https://www.freecodecamp.org/certification/gonvieira/responsive-web-design",
+      "img": "https://cdn.discordapp.com/attachments/832239784244150292/1046873161255374970/image.png"
+    }
+  ]
+}

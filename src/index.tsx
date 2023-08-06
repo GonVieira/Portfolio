@@ -3,11 +3,9 @@ import ReactDOM from "react-dom/client";
 import GlobalStyle from "./GlobalStyle";
 import App from "./pages/App/App";
 
-const root = ReactDOM.createRoot(
-  document.getElementById("root") as HTMLElement
-);
+const root = document.getElementById("root")!;
 
-root.render(
+ReactDOM.createRoot(root).render(
   <React.StrictMode>
     <GlobalStyle />
     <App />

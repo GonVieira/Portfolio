@@ -74,7 +74,7 @@ export const ProjectsContainer = styled.div`
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-gap: 25px;
-  width: 80%;
+  width: 75%;
   height: 70%;
   padding: 1.2rem;
 

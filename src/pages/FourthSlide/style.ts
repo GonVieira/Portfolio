@@ -5,15 +5,13 @@ export const FourthSlideContainer = styled.div`
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 80%;
+  height: 90%;
   background-color: rgb(23, 30, 34);
 
   //Laptops
   @media (max-width: 992px) {
     height: 150%;
   }
-
-  
 `;
 
 export const FourthSlideContentWrapper = styled.div`
